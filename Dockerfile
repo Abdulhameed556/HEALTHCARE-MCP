@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 8000
 
 # Start the server (update if your entry point is not index.js)
-CMD ["node", "server/index.js"]
+CMD ["node", "server/http-server.js"]
